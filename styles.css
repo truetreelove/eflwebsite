@@ -45,6 +45,7 @@ header {
     margin-right: 30px;
 }
 
+
 .header-right li{
     display: inline-block;
     margin: 35px 15px;
@@ -94,7 +95,8 @@ header {
 
 .maintop-wrapper {
   height: 600px; 
-  background-image: url(classroom.jpg);
+  width: 100%;
+  background-image: url(/images/HP/used/classroom.jpg);
   background-size: cover; 
   background-position: center; 
   position: relative;
@@ -102,8 +104,8 @@ header {
 
 .maintop-wrapper img {
   position: absolute;
-  top: 90px;
-  left: 90px;
+  top: 130px;
+  left: 60px;
 }
 
 /* main bottom */
@@ -167,4 +169,62 @@ footer {
 
 .footer-right li a {
   color: #acce00;
+}
+ 
+@media screen and (max-width: 899px) {
+   header {
+     height: 200px;
+   }
+
+   .header-left {
+    display: flex;
+    flex-direction: row;
+    clear:left;
+   }
+
+   .logo-header {
+    justify-content: center;
+   }
+
+   .maintop-wrapper {
+    height: 300px;
+  }
+   .maintop-wrapper img {
+    width: 90%;
+  }
+
+  .mainbottom-wrapper {
+    height: 300px;
+  }
+
+  .mainbottom-wrapper .btn {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 734px) {
+
+  footer {
+    height: 150px;
+  }
+
+  .footer-right li {
+    margin: 5px 10px;
+  }
+
+}  
+
+@media screen and (max-width: 654px) {
+  .header-right {
+    clear: right; 
+  }
+  .header-right li {
+    margin: 35px 0px;
+    padding: 10px 10px;
+  }
+
+  .mainbottom-wrapper .btn {
+    font-size: 16px;
+  }
+
 }
