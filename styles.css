@@ -96,7 +96,7 @@ header {
 .maintop-wrapper {
   height: 600px; 
   width: 100%;
-  background-image: url(/images/HP/used/classroom.jpg);
+  background-image: url(classroom.jpg);
   background-size: cover; 
   background-position: center; 
   position: relative;
