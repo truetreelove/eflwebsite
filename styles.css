@@ -204,6 +204,10 @@ footer {
 
 @media screen and (max-width: 734px) {
 
+  .mainbottom-wrapper {
+    height: 200px;
+  }
+
   footer {
     height: 150px;
   }
@@ -225,6 +229,25 @@ footer {
 
   .mainbottom-wrapper .btn {
     font-size: 16px;
+    padding: 25px 40px;
   }
+
+}
+
+@media screen and (max-width: 654px) {
+  header {
+    height: 275px;
+  }
+  
+  .header-right {
+    text-align: center; 
+  }
+
+  .header-right li {
+    margin:10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+
 
 }
