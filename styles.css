@@ -1,0 +1,170 @@
+    /* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+container {
+  margin: 0px auto;
+  max-width: 1170px;
+}
+
+/* HEADER */
+
+header {
+  height: 120px;
+  width: 100%;
+  background-color: #acce00;
+}
+
+.header-left {
+  float: left;
+  margin-left: 30px;
+}
+
+.logo-header {
+  height: 120px;
+}
+
+.header-right {
+    float: right;
+    margin-right: 30px;
+}
+
+.header-right li{
+    display: inline-block;
+    margin: 35px 15px;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 15%;
+    box-shadow:     
+      inset 0 2px 3px rgba(255,255,255,0.3),
+      inset 0 -2px 3px rgba(0,0,0,0.3),
+      0 1px 1px rgba(255,255,255,0.9);
+}
+
+.header-right li a {
+  color: white; 
+}
+
+.menu-icon {
+  display: none; 
+}
+
+.profile {
+    background-color: #eed102 ;
+    border: 5px solid #f09901;
+}
+
+.videos {
+  background-color: #e598b0;
+  border: 5px solid #e83107;
+}
+
+.news {
+  background-color: #b894c3;
+  border: 5px solid #62388a;
+}
+
+.qa {
+  background-color: #8eb5e0;
+  border: 5px solid #1391d5;
+}
+
+.email {
+  background-color: #bed400;
+  border: 5px solid #22ad39;
+}
+
+/* main top */
+
+.maintop-wrapper {
+  height: 600px; 
+  background-image: url(/images/HP/used/classroom.jpg);
+  background-size: cover; 
+  background-position: center; 
+  position: relative;
+}
+
+.maintop-wrapper img {
+  position: absolute;
+  top: 90px;
+  left: 90px;
+}
+
+/* main bottom */
+.mainbottom-wrapper {
+  height: 200px;
+  width: 100%;
+  background-color: #acce00;
+}
+
+.mainbottom-wrapper .btn {
+  position: absolute; 
+  display: block;
+  background-color: #f09901 ;
+  border: 5px solid #eed102;
+  color: white;
+  font-size: 20px;
+  width: 15%;
+  padding:30px 30px;
+  margin: 30px 0 0 40px; 
+  border-radius: 10%;
+  box-shadow:     
+    inset 0 2px 3px rgba(255,255,255,0.3),
+    inset 0 -2px 3px rgba(0,0,0,0.3),
+    0 1px 1px rgba(255,255,255,0.9);
+}
+
+/* FOOTER */
+footer {
+  height: 80px;
+  width: 100%;
+  background-color: #22ad39;
+}
+
+.footer-left {
+  float: left;
+  padding: 5px 30px;
+}
+
+.logo-footer {
+  height: 60px;
+  margin: 5px 0;
+}
+
+.footer-left span {
+  font-size: 12px;
+  color: #acce00;
+  display: inline-block;
+  vertical-align: middle;
+  height: 35px;
+}
+
+.footer-right {
+  float: right;
+  padding: 10px 30px;
+}
+
+.footer-right li {
+  display: inline-block;
+  margin: 20px 10px;
+}
+
+.footer-right li a {
+  color: #acce00;
+}
