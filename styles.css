@@ -108,6 +108,15 @@ header {
   left: 60px;
 }
 
+.maintop-wrapper p {
+  position: absolute;
+  display: inline-block;
+  font-size: 80px;
+  color: #e598b0;
+  top:50%;
+  text-align: center;
+}
+
 /* main bottom */
 .mainbottom-wrapper {
   height: 200px;
